@@ -2,7 +2,6 @@ package model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import model.enums.Availability;
 import model.enums.Gender;
 import model.enums.Size;
 
@@ -18,5 +17,5 @@ public class Product {
     private Size size;
     private double price;
     private double rating;
-    private Availability availability;
+    private boolean available;
 }
