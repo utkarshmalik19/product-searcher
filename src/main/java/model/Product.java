@@ -17,5 +17,5 @@ public class Product {
     private Size size;
     private double price;
     private double rating;
-    private boolean isAvailable;
+    private boolean available;
 }
