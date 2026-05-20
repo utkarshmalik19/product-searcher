@@ -2,15 +2,21 @@ package model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import model.enums.Availability;
+import model.enums.Gender;
+import model.enums.Size;
 
 @Data
 @AllArgsConstructor
 public class Product {
-    private Long productId;
-    private String productName;
-    private String productType;
-    private Category category;
+    private String id;
+    private String name;
+    private String brand;
+    private String category;
+    private String color;
+    private Gender genderRecommendation;
+    private Size size;
     private double price;
-    private boolean availability;
     private double rating;
+    private Availability availability;
 }
